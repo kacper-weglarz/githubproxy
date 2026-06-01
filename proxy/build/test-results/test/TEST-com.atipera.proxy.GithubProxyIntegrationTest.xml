@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.atipera.proxy.GithubProxyIntegrationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-06-01T17:48:24.868Z" hostname="KACPER" time="1.824">
+  <properties/>
+  <testcase name="shouldReturnNotFoundWhenUserDoesNotExist()" classname="com.atipera.proxy.GithubProxyIntegrationTest" time="0.057"/>
+  <system-out><![CDATA[19:48:24.976 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.atipera.proxy.GithubProxyIntegrationTest]: GithubProxyIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+19:48:25.073 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.atipera.proxy.ProxyApplication for test class com.atipera.proxy.GithubProxyIntegrationTest
+19:48:25.135 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.atipera.proxy.GithubProxyIntegrationTest]: GithubProxyIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+19:48:25.136 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.atipera.proxy.ProxyApplication for test class com.atipera.proxy.GithubProxyIntegrationTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::       (v4.1.0-SNAPSHOT)
+
+2026-06-01T19:48:25.763+02:00  INFO 32640 --- [proxy] [    Test worker] c.a.proxy.GithubProxyIntegrationTest     : Starting GithubProxyIntegrationTest using Java 25 with PID 32640 (started by kacpe in C:\Users\kacpe\Desktop\proxy\proxy)
+2026-06-01T19:48:25.764+02:00  INFO 32640 --- [proxy] [    Test worker] c.a.proxy.GithubProxyIntegrationTest     : No active profile set, falling back to 1 default profile: "default"
+2026-06-01T19:48:26.292+02:00  INFO 32640 --- [proxy] [    Test worker] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 0 (http)
+2026-06-01T19:48:26.303+02:00  INFO 32640 --- [proxy] [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-01T19:48:26.304+02:00  INFO 32640 --- [proxy] [    Test worker] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-06-01T19:48:26.335+02:00  INFO 32640 --- [proxy] [    Test worker] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 547 ms
+2026-06-01T19:48:26.624+02:00  INFO 32640 --- [proxy] [    Test worker] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 51971 (http) with context path '/'
+2026-06-01T19:48:26.629+02:00  INFO 32640 --- [proxy] [    Test worker] c.a.proxy.GithubProxyIntegrationTest     : Started GithubProxyIntegrationTest in 1.041 seconds (process running for 2.351)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
